@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #242422;
+}
+
+img {
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: helvetica, arial, san-serif;
+  color: #c5d93a;
+}
+
+p, multiline {
+  font-family: helvetica, arial, san-serif;
+  color: #666674;
+}
+
+a {
+  color: #c5d93a;
+}
+
+a.button {
+  background: #c5d93a;
+  display: block;
+  color: #242422;
+  font-weight: bold;
+  font-family: helvetica, arial, san-serif;
+  text-decoration: none;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container-table {
+  background: #ffffff;
+}
+
+.main-table {
+  max-width: 600px;
+}
+
+.header {
+  border-top: 10px solid #ffffff;
+  border-bottom: 3px solid #c5d93a;
+}
+
+.header-table {
+  width: 100%;
+}
+
+.logo-td, .call-us {
+  width: 50%;
+}
+
+.logo-td {
+  text-align: left;
+}
+
+.logo-td img {
+  width: 280px;
+  height: auto;
+  border: 10px solid #fff;
+  border-width: 10px 0 20px 0;
+}
+
+.call-us {
+  text-align: right;
+  font-family: helvetica, arial, san-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.call-us table {
+  width: 100%;
+}
+.call-us span {
+  color: #ACC71A;
+}
+
+.phone-icon {
+  width: 30px;
+}
+
+.phone-td {
+  width: 155px;
+}
+
+.content-div {
+  text-align: center;
+  border-bottom: 13px solid #ffffff;
+}
+
+.content-div img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  border-top: 3px solid #c5d93a;
+  background: #242422;
+}
+
+.footer-content {
+  max-width: 600px;
+  border: 10px solid #242422;
+}
+
+.footer-content a, unsubscribe {
+  color: #bebebd;
+  font-family: helvetica, arial, san-serif;
+}
+
+.footer tweet, .footer fblike, .footer forwardtoafriend {
+  display: block;
+  border-radius: 3px;
+  font-family: helvetica, arial, san-serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.footer tweet {
+  background: #00a8e9; 
+}
+.footer fblike {
+  background: #12527e;
+}
+.footer forwardtoafriend {
+  background: #81bc00;
+}
+
+.footer-text {
+  color: #bebebd;
+  font-family: helvetica, arial, san-serif;
+  text-align: right;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .logo-td img {
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
