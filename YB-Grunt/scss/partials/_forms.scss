@@ -1,0 +1,278 @@
+// ----------------------------------------
+// Forms
+// ----------------------------------------
+
+// ----------------------------------------
+// Contact Us Form
+// ----------------------------------------
+#contact  fieldset {
+		padding:0 0 15px 0; 
+	}
+		
+		#center_column div.contact-us-page form.std.form-horizontal {
+			background: #f9f9f9;
+			padding: 20px 18px;
+			display: inline-block;
+			border-radius: 10px;
+			border: 1px solid #ddd;
+		}
+		html.gt-640 #center_column div.contact-us-page form.std.form-horizontal {
+		width: 60%;
+		}
+		html.lt-640 #center_column div.contact-us-page form.std.form-horizontal {
+		width: calc(100% - 40px);
+		}
+		html.lt-640 #center_column div.contact-us-page form.std.form-horizontal * > * > * {
+		display: block;
+		width: 100%!important;
+		}
+		html.lt-640 #center_column div.contact-us-page form.std.form-horizontal * > * > * > input,
+		html.lt-640 #center_column div.contact-us-page form.std.form-horizontal * > * > * > textarea {
+			width: calc(100% - 20px)!important;
+
+		}
+		
+		html.lt-640 div.text.control-group {
+		width: 100%!important;			
+		}
+		
+		#contact #center_column p {margin:0; padding:0 0 10px 0;}
+		
+
+		
+		div#desc_contact0.desc_contact {
+			display: none!important;
+		}
+		
+		#contact #center_column p.desc_contact { 
+			text-align: center; 
+			padding-left: 10px; 
+			padding-right: 10px; 
+		}
+		 
+		#contact .textarea textarea { 
+			height: 200px;
+			width: calc(100% - 22px);
+			padding: 10px;
+			font-size: 13px;
+		}
+		
+		#center_column p.bold {
+			
+		}
+		
+		#center_column div.contact-us-page p.bold {
+			font-weight: normal!important;
+		}
+		div.contact-us-page .controls select {
+			width: 100%!important;
+			max-width: 100%;
+			margin: 0!important;
+		}
+		html.lt-640 div.contact-us-page label {
+			text-align: left;
+			font-weight: bold;
+		}
+		div.contact-us-page label,
+		div.contact-us-page input[type=text] {
+			vertical-align: middle!important;
+			display: inline-block!important;
+			float: none!important;
+			margin: 0!important;
+		}
+		div.contact-us-page input[type=text] {
+			width: calc(100% - 22px);
+		}
+		div.contact-us-page .controls {
+			margin: 0;
+			display: inline-block;
+			width: calc(100% - 119px);
+		}
+		div.contact-us-page label {
+			padding: 0 10px 0 0!important;
+			font-size: 13px;
+			width: 105px!important;
+
+		}
+		
+		div.contact-us-page div.text.control-group {
+			margin: 0 0 10px 0;
+		}
+		div.contact-us-page input#submitMessage.button_large.btn {
+			width: auto!important;
+			max-width: none;
+			text-shadow: 0 1px 0px rgba(0,0,0,0.3)!important;
+		}
+		
+		#center_column div.contact-us-page form.std.form-horizontal fieldset div.textarea.control-group label.control-label {
+			vertical-align: top!important;
+		}
+		
+		#center_column div.contact-us-page form.std.form-horizontal fieldset {
+			margin:0;
+			padding: 0;
+		}
+		
+		#center_column div.contact-us-page form.std.form-horizontal fieldset div.submit.control-group {
+			padding-left: 117px;
+			margin-bottom: 0;
+		}
+		
+		#center_column div.contact-us-page form.std.form-horizontal fieldset div.textarea.control-group {
+			margin-bottom: 10px;
+		}
+		
+		div.contact-us-page input[type=text], div.contact-us-page textarea {
+			border-radius: 4px!important;
+			padding: 10px;
+			font-size: 13px;
+		}
+		
+		#desc_contact2  {
+			display: none;
+		}  
+		
+		
+		
+		
+		
+		.lt-640 #yb-contact-us-page {
+			display: none;
+		}
+		
+		
+		#yb-contact-us-page {
+		float: right;
+		width: 300px;
+		}
+		
+		#yb-contact-us-page h2 {
+			padding: 10px 0;
+			line-height: 1;
+			margin-bottom: 10px;
+			font-size: 20px;
+		}
+
+#yb-contact-us-page h3 {
+	padding: 0;
+	line-height: 1;
+	color: #2197c9;
+	margin-bottom: 4px;
+}
+#yb-contact-us-page span {
+	display: block;
+	float: left;
+	width: 48px;
+	height: 48px;
+	background: #2197c9 url(../../../img/hp/contact-page-icons.gif);
+	margin: 0 10px 10px 0;
+
+}
+
+#cp-measure { background-position: 0 -79px!important; }
+#cp-showroom { background-position: 0 -164px!important; }
+#cp-delivery { background-position: 0 -247px!important; }
+#cp-payment { background-position: 0 -330px!important; }
+#cp-warranty { background-position: 0 -413px!important; }
+
+#yb-contact-us-page li {
+clear: both;
+padding-bottom: 20px;
+}
+#yb-contact-us-page p {
+	line-height: 1.2;
+}		
+
+// ----------------------------------------
+// Addresses Form
+// ----------------------------------------
+div.addresses {
+/*    position:relative;
+   padding:15px;  */
+}
+
+ul.address {
+   list-style-type:none; 
+   position:relative; 
+}
+#address_delivery { }
+#address_invoice {margin-right:0}
+#delivery_address {margin-right:65px;}
+
+ul.address li {
+	padding:0 15px;  
+}
+
+ul.address li.address_title { 
+	background: none repeat scroll 0 0 #F5F5F5;
+    padding: 5px;
+    text-transform: uppercase;
+}
+ul.address .address_alias {
+	font-weight: normal;
+	text-transform: none;
+}
+ul.address li.address_firstname,
+ul.address li.address_company {
+	margin-top:8px
+}
+
+ul.address  li.address_update {
+	margin-top:20px
+}
+ul.address  li.address_update,
+ul.address li.address_delete {
+	font-size:11px;
+   text-transform:none
+}
+.address_add {
+   padding:20px 0
+}
+.address_select { 
+	width: 200px;
+	margin-left: 10px;
+}
+label[for=id_address_delivery], label[for=id_address_invoice] {
+	float: left;
+	margin-top: 5px;
+}
+.addressesAreEquals label {
+	text-align: left;
+	width: auto;
+	margin-left: 20px;
+}
+.addressesAreEquals input {
+	float: left;
+}
+p.address_delivery, p.addressesAreEquals {
+	padding-bottom: 14px
+}
+
+// ----------------------------------------
+// Page Addresses
+// ----------------------------------------
+.addresses ul.address {
+   list-style-type:none; 
+   position:relative; 
+   border: 1px solid #DDDDDD;
+}
+.addresses ul.address.alternate_item,
+.addresses ul.address.last_item {margin-right:0}
+.addresses ul.address li {
+	padding:0 15px; 
+}
+.addresses ul.address .address_title { 
+    background: none repeat scroll 0 0 #F5F5F5;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.addresses ul.address .address_update {margin-top:20px}
+.addresses ul.address .address_update,
+.addresses ul.address .address_delete {
+	font-size:11px;
+   text-transform:none
+}
+
+
+
+

@@ -1,0 +1,241 @@
+// ----------------------------------------
+// My Account
+// ----------------------------------------
+#my-account  #left_column {display:none}
+#my-account #center_column {}
+#my-account #center_column h1 {
+	margin:20px 0; 
+	text-transform:capitalize;
+	}
+
+#my-account #center_column .title_block  {
+	font-weight:normal;
+	font-size:12px;
+	color:#666
+}
+
+#my-account .myaccount_lnk_list {
+	list-style-type:none;
+/* 	padding-bottom: 50px; */
+}
+#my-account .myaccount_lnk_list li {
+	font-size:13px;
+	line-height:36px
+}
+#center_column ul.myaccount_lnk_list li {
+	display: inline-block;
+}
+#center_column ul.myaccount_lnk_list li a {
+	display: block;
+	border: 1px solid #ccc;
+	margin: 5px;
+	padding: 25px 5px 25px 45px;
+	border-radius: 7px;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.1);
+	width: 155px;
+	display: inline-block;
+	color: #666;
+	line-height: 0;
+	font-size: 13px!important;
+	font-family: 'Montserrat';
+	background-image: url(../img/my-account-icons.gif);
+	background-position: 10px -803px;
+}
+
+#center_column ul.myaccount_lnk_list li.my-account-orders a {
+	background-position: 10px -803px;
+	
+}
+#center_column ul.myaccount_lnk_list li.my-account-returns a {
+	background-position: -212px -802px;	
+}
+#center_column ul.myaccount_lnk_list li.my-account-address a {
+	background-position: -652px -802px;		
+}
+#center_column ul.myaccount_lnk_list li.my-account-info a {
+	background-position: 10px -879px;	
+}
+#center_column ul.myaccount_lnk_list li.lnk_wishlist.item a {
+	background-position: -213px -878px;
+}
+#center_column ul.myaccount_lnk_list li.mailalerts a {
+	background-position: -434px -879px;
+}
+#center_column ul.myaccount_lnk_list li.favoriteproducts a {
+	background-position: -652px -879px;
+}
+#center_column ul.myaccount_lnk_list li.my-account-credits a {
+	background-position: -430px -802px;	
+}
+
+#center_column ul.myaccount_lnk_list li a:hover {
+	text-decoration: none;
+	border: 1px solid #28a2df;
+	box-shadow: 0px 0px 1px 1px #96dcff;
+}
+
+#center_column ul.myaccount_lnk_list li.favoriteproducts img {
+	width: 0;
+	height: 0;
+}
+
+#center_column ul.myaccount_lnk_list li a img {
+	display: none;
+}
+#center_column ul.myaccount_lnk_list h3 {
+	clear: both;
+/* 	position: absolute; */
+	line-height: 1.2;
+	padding: 10px;
+	font-size: 15px;
+/* 	margin-top: 60px; */
+}
+
+#my-account .myaccount_lnk_list img.icon,
+#my-account p img.icon {
+	position:relative;
+	left:0;
+	top: -3px;
+}
+
+// ----------------------------------------
+// Order History
+// ----------------------------------------
+#history #center_column h1{margin-top:20px}
+#history #center_column .title_block {
+	margin:20px 0;
+	padding:15px 20px;
+	background:#ccc
+}
+#history #center_column .title_block  input {
+	position: relative;
+   top: -8px;
+	float:right;
+}
+
+.info-order {
+	margin-bottom:20px;
+}
+.info-order p {padding-bottom:10px}
+.info-order p .icon {
+	position:relative;
+	top:2px;
+	left:0
+}
+
+#order-list { 
+}
+#order-list  th {  
+}
+#order-list tr.alternate_item {background-color: #f3f3f3}
+#order-list  td {
+	padding:3px;
+	border-right:1px solid #cacaca;
+	border-bottom:1px solid #cacaca; 
+	font-size:12px;
+	vertical-align:top
+} 
+
+#order-list .last_item  td {border-bottom: 1px solid #cacaca}
+
+.adresses_bloc {margin-bottom:20px} 
+
+.detail_step_by_step {width:100%}
+.detail_step_by_step tr.last_item td {border-bottom:1px solid #cacaca}
+
+#order-detail-content table {width:100%}
+#order-detail-content table .order_qte_input {display:none}
+#order-detail-content table tr.totalprice td {border-bottom:1px solid #cacaca}
+#order-detail-content table tr:nth-child(even) {background:#f3f3f3;}
+
+#sendOrderMessage {margin-bottom:20px}
+#sendOrderMessage p {padding-bottom:10px}
+
+#returnOrderMessage .textarea textarea,
+#sendOrderMessage .textarea textarea {
+	width:100%;
+	border:1px solid #cacaca
+}
+
+// ----------------------------------------
+// Identity
+// ----------------------------------------
+#identity #left_column {display:none}
+#identity #center_column{padding: 20px 0 0}
+#identity h3 {
+	font-weight:normal;
+	font-size:13px;
+}
+#identity p {
+	padding-bottom:10px;
+}
+#identity form.std fieldset {
+	margin-top:0;
+	padding:10px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background:#eee;
+}
+#identity .std p.required {color:#333}
+#identity .std p.text label,
+#identity .std p.password label,
+#identity .std p.select label {
+	display:inline-block;
+	padding-right:10px;
+	width:174px;/* 184 */
+	font-weight:bold;
+	font-size:12px;
+	text-align:right;
+} 
+#identity .std p.text input,
+#identity .std p.password input {
+	padding:0 5px;
+	height:20px;
+	width:253px;/* 263 */
+	border:1px solid #ccc;
+	background:url(../img/bg_input.png) repeat-x 0 0 #fff;
+}
+#identity .std p.select select {
+	border:1px solid #ccc;
+}
+#identity .std p.radio span {
+	display:inline-block;
+	padding-right:10px;
+	width:136px;/* 184 */
+	margin-right: 20px;
+	font-size:12px;
+	text-align:right;
+	float: left;
+}
+#identity form.std fieldset p label.top {
+	float: left;
+	margin: 0 15px;
+}
+#identity .std p.radio input {
+	padding:0 5px;
+	height:auto;
+	width:auto;
+	border:none;
+	background:none;
+	position: relative;
+}
+#identity .std p.checkbox input {
+	position:relative;
+	top:2px;
+	left:0;
+	margin:0 2px 0 163px;
+}
+#identity .select.controls {
+	margin-left: 92px;
+	margin-bottom: 10px;
+}
+#identity .select.controls > label {
+    display: inline-block;
+	margin-right: 18px;
+}
+#identity .std p.submit {padding:10px 0 20px 187px}
+#identity .std p.submit .button {padding:5px 25px}
+#identity .std #security_informations { 
+	font-size:11px;
+}

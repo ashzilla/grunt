@@ -1,0 +1,48 @@
+// ----------------------------------------
+// Variables
+// ----------------------------------------
+
+// ----------------------------------------
+// Colors
+// ----------------------------------------
+
+$yb-color:			#78A942;
+$yb-accent:			#269CCE;
+
+$accent-light: 		yellow;// NEEDS UPDATEING
+$accent-med: 		teal;// NEEDS UPDATEING
+$accent-dark:		blue;// NEEDS UPDATEING
+
+$text-light: 		#cecece;
+$text-dark: 		#404041;
+
+$link-color: 		$yb-accent;
+$link-hover: 		darken($link-color, 20%);
+$link-active: 		darken($link-color, 60%);
+
+$black: 		#151515;
+$white: 		#ffffff;
+$dark-grey:		#404041;
+
+
+// ----------------------------------------
+// Typography
+// ----------------------------------------
+
+$sans-serif: 		Helvetica, sans-serif;
+$serif:             Georgia, serif;
+
+$line-height-base: 	1.5;
+
+$heading-font: 		Montserrat, Helvetica, sans-serif;
+$body-font: 		$sans-serif;
+
+
+// -----------------------------------------
+// Helpers
+// -----------------------------------------
+
+// Shortcuts for things you might be typing a lot.
+
+
+
