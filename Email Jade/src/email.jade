@@ -1,0 +1,105 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(name='viewport', content='width=device-width')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Message from {shop_name}
+    //- link(href='styles.css', media='all', rel='stylesheet', type='text/css')
+    // build:css css/tidy.css
+    link(rel='stylesheet', href='ink.css')
+    link(href='styles.css', rel='stylesheet', type='text/css')
+    // /build
+  body
+    table.body-wrap
+      tr
+        td
+        td.container(width='600')
+          .content
+            table.logo-table(cellpadding='0', cellspacing='0', border='0', width='100%')
+              tr
+                td(align='center')
+                  a(href='{shop_url}')
+                    img(src='http://www.yesblinds.com.au/mails/images/logo.png', alt='Yes Blinds')
+            table.main(width='100%', cellpadding='0', cellspacing='0')
+              tr
+                td.content-wrap
+                  table(width='100%', cellpadding='0', cellspacing='0')
+                    tr
+                      td
+                        | Hi 
+                        strong {firstname} {lastname}
+                        | ,
+                        br
+                        | Thank you for shopping with 
+                        strong {shop_name}!
+                    tr
+                      td.content-block
+                        h2 Order details
+                    tr
+                      td.content-block
+                        | Order: 
+                        strong {order_name}
+                        | placed on 
+                        strong {date}
+                        br
+                        | Payment: 
+                        strong {payment}
+                    tr
+                      td
+                        table.invoice
+                          tr
+                            td
+                              table.invoice-items(cellpadding='0', cellspacing='0')
+                                tr
+                                  td(width='45%') Product
+                                  td.aligncenter(width='20%') Unit Price
+                                  td.aligncenter(width='15%') Quantity
+                                  td.alignright(width='20%') Total Price
+                                | {products}
+                                | {discounts}
+                                tr.products
+                                  td.alignright(width='80%', colspan='3') Products
+                                  td.alignright {total_products}
+                                tr.discounts
+                                  td.alignright(width='80%', colspan='3') Discounts
+                                  td.alignright {total_discounts}
+                                tr.shipping
+                                  td.alignright(width='80%', colspan='3') Shipping
+                                  td.alignright {total_shipping}
+                                tr.total
+                                  td.alignright(width='80%', colspan='3') Total
+                                  td.alignright {total_paid}
+                    tr
+                      td.content-block
+                        h2 Shipping
+                    tr
+                      td.content-block
+                        | Carrier: 
+                        strong {carrier}
+                    tr
+                      td.content-block
+                        table.delivery-table(cellpadding='0', cellspacing='0', border='0', width='100%')
+                          tr
+                            td.delivery-top Delivery Address
+                            td.delivery-top Billing Address
+                          tr
+                            td.delivery-bottom {delivery_block_html}
+                            td.delivery-bottom {invoice_block_html}
+                    tr
+                      td.content-block
+                        p
+                          | You can review your order and download your invoice from the 
+                          a(href='{history_url}') "Order history"
+                          |  section of your account by clicking 
+                          a(href='{my_account_url}') "My account"
+                          |  on our shop.
+                        p
+                          | If you have a guest account, you can follow your order via the 
+                          a(href='{guest_tracking_url}') "Guest Tracking"
+                          |  section on our shop.
+            .footer
+              table(width='100%')
+                tr
+                  td.aligncenter.content-block
+                    | Yes Blinds Pty Ltd ABN 82 131 882 703
+        td

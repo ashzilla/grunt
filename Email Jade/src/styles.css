@@ -1,0 +1,155 @@
+.panel {
+  border: none !important;
+  padding: 10px !important;
+}
+
+.top-bar {
+  background: #404041;
+}
+.top-bar .wrapper {
+  padding: 0 !important;
+}
+
+.header {
+  background: #404041;
+}
+
+table .small-button {
+  box-shadow: 0px 1px 0px 0px #008DE8;
+}
+table .small-button td {
+  background: #01a0e5;
+  border: none;
+}
+table .small-button a {
+  text-shadow: 0px 1px 0px #1A77A4;
+  font-size: 12px !important;
+}
+
+.intro-text {
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+}
+
+.view-browser {
+  text-align: right;
+}
+.view-browser webversion {
+  color: white;
+  font-size: 12px;
+}
+
+.view-browser.panel {
+  padding-right: 0 !important;
+}
+
+table .medium-button {
+  box-shadow: 0px 1px 0px 0px #417505;
+}
+table .medium-button td {
+  background: #78a942;
+  border: none;
+}
+table .medium-button a {
+  text-shadow: 0px 1px 0px #46761E;
+}
+
+.radius {
+  border-radius: 5px;
+}
+
+.three-up td {
+  width: 190px;
+}
+
+h1 {
+  color: #01a0e5;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.twelve.columns ul {
+  padding-left: 130px;
+}
+.twelve.columns li {
+  text-align: left;
+}
+
+.footer-row-one {
+  background: #2d2d2d;
+}
+
+.footer {
+  background: #242424;
+  height: 300px;
+}
+.footer unsubscribe {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.footer .wrapper {
+  padding: 0 !important;
+  vertical-align: middle;
+}
+
+.social-table td {
+  width: 44px;
+}
+
+.follow-us {
+  color: white;
+  padding-top: 10px !important;
+}
+
+.why-receiving {
+  font-size: 12px;
+  color: white;
+  text-align: right;
+  padding-right: 0 !important;
+  display: inline-block;
+}
+
+.social-media td {
+  vertical-align: middle;
+  color: white;
+  padding: 0 !important;
+}
+
+.social-media.panel {
+  padding: 0 !important;
+}
+
+.five-up td {
+  width: auto !important;
+}
+.five-up img {
+  margin: 0 0 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-td, .contact-td {
+    text-align: center !important;
+  }
+  .logo-td a, .contact-td a {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .twelve.columns ul {
+    padding-left: 20px !important;
+  }
+  .twelve.columns ul strong {
+    display: block;
+  }
+
+  .why-receiving {
+    text-align: center !important;
+  }
+
+  .social-icons {
+    border: 1px solid #2d2d2d;
+    border-width: 0 5px 0 0;
+  }
+}
