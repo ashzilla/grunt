@@ -1,14 +1,11 @@
 {
-  "name": "email-template",
+  "name": "static-site",
   "version": "0.1.0",
-  "author": "Your Name",
+  "author": "Ash Atkinson",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jade": "^0.14.0",
     "grunt-contrib-sass": "^0.7.3",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-premailer": "^0.2.10",
-    "grunt-processhtml": "^0.3.3",
-    "grunt-uncss": "^0.3.6"
+    "grunt-contrib-watch": "~0.5.3"    
   }
 }

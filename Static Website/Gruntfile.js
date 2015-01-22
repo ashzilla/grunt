@@ -27,12 +27,12 @@ module.exports = function(grunt) {
           }
         },  
 
-        livereload: {
-          // Here we watch the files the premailer task will compile to
-          // These files are sent to the live reload server after premailer compiles to them
-          options: { livereload: true },
-          files: ['dest/*.html'],
-        },    
+        // livereload: {
+        //   // Here we watch the files the premailer task will compile to
+        //   // These files are sent to the live reload server after premailer compiles to them
+        //   options: { livereload: true },
+        //   files: ['dest/*.html'],
+        // },    
         
         // Watches for changes to css or email templates then runs grunt tasks
         watch: {
